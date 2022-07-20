@@ -51,5 +51,6 @@ jobs:
       with:
         image: majda9017/demo-app
         registry: docker.io
+        dockerfile: Dockerfile.ci
         username: ${{ secrets.DOCKER_HUB_MAJDA }}
         password: ${{ secrets.DOCKER_PASSWORD }}
