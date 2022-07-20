@@ -53,5 +53,6 @@ jobs:
         tags: v1, latest
         registry: registry-url.io
         dockerfile: Dockerfile.ci
+        
         username: ${{ secrets.DOCKER_HUB_MAJDA }}
         password: ${{ secrets.DOCKER_PASSWORD }}
